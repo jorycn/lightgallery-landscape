@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>旅游</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="http://xian.qq.com/2017images/tour/201702/style.min.css">
+        <script src="http://xian.qq.com/js/common/jquery/jquery-1.8.3.min.js"></script>        
+    </head>
+    <body>
+        <!--#include virtual="/2012ztmini_top.htm"-->
+        <div class="header">
+          <div class="logo"></div>
+          <div class="cate">
+            <ul>
+              <li><a href="">往期精彩</a></li>
+              <li><a href="">热门评论</a></li>
+              <li><a href="">联系投稿</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="sb" style="width: 100%;height: 100%;">
+          <div class="sb-box">
+            <ul id="lightgallery" class="list-unstyled row"></ul>
+          </div>
+        </div>
+
+        <script>
+          $(document).ready(function(){
+            $('#lightgallery').lightGallery({
+              dynamic: true,
+              dynamicEl: [{
+                  "src": 'http://mat1.gtimg.com/xian/2017images/tour/201702/img/1.jpg',
+                  'thumb': 'http://mat1.gtimg.com/xian/2017images/tour/201702/img/1.jpg'
+              },{
+                  "src": 'http://mat1.gtimg.com/xian/2017images/tour/201702/img/5.jpg',
+                  'thumb': 'http://mat1.gtimg.com/xian/2017images/tour/201702/img/5.jpg'
+              },{
+                  "src": 'http://mat1.gtimg.com/xian/2017images/tour/201702/img/7.jpg',
+                  'thumb': 'http://mat1.gtimg.com/xian/2017images/tour/201702/img/7.jpg'
+              },{
+                  "src": 'http://mat1.gtimg.com/xian/2017images/tour/201702/img/8.jpg',
+                  'thumb': 'http://mat1.gtimg.com/xian/2017images/tour/201702/img/8.jpg'
+              },{
+                  "src": 'http://mat1.gtimg.com/xian/2017images/tour/201702/img/9.jpg',
+                  'thumb': 'http://mat1.gtimg.com/xian/2017images/tour/201702/img/9.jpg'
+              },{
+                  "src": 'http://mat1.gtimg.com/xian/2017images/tour/201702/img/13.jpg',
+                  'thumb': 'http://mat1.gtimg.com/xian/2017images/tour/201702/img/13.jpg'
+              },{
+                  "src": 'http://mat1.gtimg.com/xian/2017images/tour/201702/img/14.jpg',
+                  'thumb': 'http://mat1.gtimg.com/xian/2017images/tour/201702/img/14.jpg'
+              }]
+            });
+        });
+        </script>
+        <script src="js/picturefill.min.js"></script>
+        <script src="js/lightgallery.min.js"></script>
+        <script src="js/lg-thumbnail.min.js"></script>
+        <script src="../lib/jquery.mousewheel.min.js"></script>
+    </body>
+</html>
